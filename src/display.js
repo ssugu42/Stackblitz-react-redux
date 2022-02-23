@@ -5,10 +5,13 @@ import React from 'react';
 const Display = () => {
   const dispatch = useDispatch();
   const data = useSelector((state) => state);
-  console.log('In---', data);
+
+  const stylee = {
+    color: data
+  }
 
   return (
-    <div color="red">
+    <div style={stylee}>
       <h1>Hello Sugumar!</h1>
       <p>Welcome to the React course</p>
       <p>{data}</p>

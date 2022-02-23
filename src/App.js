@@ -4,7 +4,7 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import Display from './display.js';
 
-const myReducer = function (state = 'white', action) {
+const myReducer = function (state = 'orange', action) {
   switch (action.type) {
     case 'red':
       state = 'red';

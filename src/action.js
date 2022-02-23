@@ -1,16 +1,16 @@
-export default redBg = function () {
+export function redBg () {
   return {
     type: 'red',
   };
 };
 
-export default blueBg = function () {
+export function blueBg() {
   return {
     type: 'blue',
   };
 };
 
-export default greenGb = function () {
+export function greenGb() {
   return {
     type: 'green',
   };
